@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "module": "es6",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "types": []
+    },
+    "include": [
+        "src",
+        "libs"
+    ],
+    "exclude": [
+        "egret_support_npm"
+    ]
+}
